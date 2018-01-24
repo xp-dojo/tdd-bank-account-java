@@ -1,3 +1,5 @@
+defaultTasks 'clean', 'build'
+
 repositories {
     mavenCentral()
     jcenter()
