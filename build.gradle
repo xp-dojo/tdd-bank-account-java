@@ -5,7 +5,7 @@ allprojects{ projects ->
 
 subprojects { subprojects ->
 
-    apply plugin: 'idea'
+    apply plugin: 'scala'
     apply from: "$rootDir/libraries.gradle"
     
     repositories {
