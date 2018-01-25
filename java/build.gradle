@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies{
+    compileOnly libs.lombok
+
+    testCompile libs.test.junit,
+        libs.test.assertj
+
+}

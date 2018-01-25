@@ -1,21 +1,19 @@
-defaultTasks 'clean', 'build'
-
-repositories {
-    mavenCentral()
-    jcenter()
-}
-
-apply plugin: 'java'
-apply plugin: 'idea'
-apply from: "$rootDir/libraries.gradle"
-
-dependencies {
-
-    compileOnly libs.lombok
-
-    testCompile libs.test.junit,
-            libs.test.mockito,
-            libs.test.assertj
+allprojects{ projects ->
+    defaultTasks 'clean', 'build'
 }
 
 
+subprojects { subprojects ->
+
+    apply plugin: 'idea'
+    apply from: "$rootDir/libraries.gradle"
+    
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    idea.module{
+        downloadSources = true
+    }
+}
