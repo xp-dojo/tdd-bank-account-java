@@ -2,18 +2,18 @@ package org.suggs.katas.bankaccount;
 
 import lombok.EqualsAndHashCode;
 
-import static org.suggs.katas.bankaccount.Money.aMonetaryAmountOf;
+import static org.suggs.katas.bankaccount.Money.anAmountOf;
 
 @EqualsAndHashCode
 public class Account {
     private Money balance;
 
-    public static Account anAccountWithABalanceOf(Money amount) {
+    public static Account anAccountWith(Money amount) {
         return new Account(amount);
     }
 
     public static Account anEmptyAccount() {
-        return new Account(aMonetaryAmountOf(0.0d));
+        return new Account(anAmountOf(0.0d));
     }
 
     private Account(Money anAmount) {

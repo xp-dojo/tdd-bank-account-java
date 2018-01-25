@@ -10,7 +10,7 @@ public class Money {
         this.amount = anAmount;
     }
 
-    public static Money aMonetaryAmountOf(double anAmount) {
+    public static Money anAmountOf(double anAmount) {
         return new Money(anAmount);
     }
 

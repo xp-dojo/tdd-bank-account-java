@@ -3,35 +3,35 @@ package org.suggs.katas.bankaccount;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.suggs.katas.bankaccount.Account.anAccountWithABalanceOf;
+import static org.suggs.katas.bankaccount.Account.anAccountWith;
 import static org.suggs.katas.bankaccount.Account.anEmptyAccount;
-import static org.suggs.katas.bankaccount.Money.aMonetaryAmountOf;
+import static org.suggs.katas.bankaccount.Money.anAmountOf;
 
 public class WithAnAccountWeCan {
 
     @Test
     public void depositAnAmountToIncreaseTheBalance() {
-        Account account = anAccountWithABalanceOf(aMonetaryAmountOf(0.0d));
-        account.deposit(aMonetaryAmountOf(10.0d));
-        assertThat(account).isEqualTo(anAccountWithABalanceOf(aMonetaryAmountOf(10.0d)));
+        Account account = anAccountWith(anAmountOf(0.0d));
+        account.deposit(anAmountOf(10.0d));
+        assertThat(account).isEqualTo(anAccountWith(anAmountOf(10.0d)));
     }
 
     @Test
     public void withdrawAnAmountToDecreaseTheBalance() {
-        Account account = anAccountWithABalanceOf(aMonetaryAmountOf(20.0d));
-        account.withdraw(aMonetaryAmountOf(10.0d));
-        assertThat(account).isEqualTo(anAccountWithABalanceOf(aMonetaryAmountOf(10.0d)));
+        Account account = anAccountWith(anAmountOf(20.0d));
+        account.withdraw(anAmountOf(10.0d));
+        assertThat(account).isEqualTo(anAccountWith(anAmountOf(10.0d)));
     }
 
     @Test
     public void transferMoneyFromOneAccountToAnother() {
         Account destinationAccount = anEmptyAccount();
-        Account sourceAccount = anAccountWithABalanceOf(aMonetaryAmountOf(50.0d));
+        Account sourceAccount = anAccountWith(anAmountOf(50.0d));
 
-        sourceAccount.transfer(aMonetaryAmountOf(20.0d), destinationAccount);
+        sourceAccount.transfer(anAmountOf(20.0d), destinationAccount);
 
-        assertThat(sourceAccount).isEqualTo(anAccountWithABalanceOf(aMonetaryAmountOf(30.0d)));
-        assertThat(destinationAccount).isEqualTo(anAccountWithABalanceOf(aMonetaryAmountOf(20.0d)));
+        assertThat(sourceAccount).isEqualTo(anAccountWith(anAmountOf(30.0d)));
+        assertThat(destinationAccount).isEqualTo(anAccountWith(anAmountOf(20.0d)));
     }
 
 }
