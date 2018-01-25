@@ -2,10 +2,8 @@ allprojects{ projects ->
     defaultTasks 'clean', 'build'
 }
 
-
 subprojects { subprojects ->
 
-    apply plugin: 'scala'
     apply from: "$rootDir/libraries.gradle"
     
     repositories {

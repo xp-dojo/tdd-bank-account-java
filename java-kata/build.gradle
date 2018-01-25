@@ -1,3 +1,5 @@
+apply plugin: 'java'
+
 jar{
     baseName = 'bank-account-kata-java'
 }
