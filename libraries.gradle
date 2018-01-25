@@ -1,5 +1,6 @@
 ext {
     libs = [
+            lombok: 'org.projectlombok:lombok:1.16.20',
             test: [
                 junit: 'junit:junit:4.12',
                 mockito: 'org.mockito:mockito-core:2.13.0',

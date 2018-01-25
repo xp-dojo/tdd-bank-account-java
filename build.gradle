@@ -10,6 +10,9 @@ apply plugin: 'idea'
 apply from: "$rootDir/libraries.gradle"
 
 dependencies {
+
+    compileOnly libs.lombok
+
     testCompile libs.test.junit,
             libs.test.mockito,
             libs.test.assertj
