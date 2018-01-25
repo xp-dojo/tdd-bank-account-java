@@ -9,11 +9,7 @@ subprojects { subprojects ->
     apply from: "$rootDir/libraries.gradle"
     
     repositories {
-        mavenCentral()
         jcenter()
     }
 
-    idea.module{
-        downloadSources = true
-    }
 }
