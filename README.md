@@ -1,6 +1,7 @@
 # Bank account kata
  - originated from Sandro Mancuso and the LSCC
 
+----
 ## Importing into your IDE
 
 1. Clone this repo from github to your local machine
@@ -8,7 +9,18 @@
 1. From intellij "open" the project using the `build.gradle` file
 1. Select to use the gradle wrapper and auto create folder etc
 1. Once opened start with a test
- 
+
+----
+## What is this kata trying to teach us
+Two key things to learn / practice in this Kata:
+1. Test Driven Development
+1. Pair programming
+
+### Test Driven Development
+
+### Pair programming
+
+----
 ##  Requirements
  - I can Deposit and Withdrawal money from accounts
  - I can Transfer amounts between accounts (if i have the funds)
@@ -16,7 +28,8 @@
  - I can print a statement of account activity (statement)  
  - I can apply Statement filters (just deposits, withdrawal, date)
 
-## For those looking for an additional challenge try applying these rules and see what it does to your code
+----
+## Going the extra mile
 
 ### Using object calisthenics
 1. One level of indentation per method
@@ -34,3 +47,5 @@
 -  Object Calisthenics (full book), Jeff Bay in: The ThoughtWorks Anthology.
 Pragmatic Bookshelf 2008
 -  Original idea for the kata: How Object-Oriented Are You Feeling Today? - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
+
+----
