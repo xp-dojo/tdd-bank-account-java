@@ -1,12 +1,12 @@
 ext {
     libs = [
             lombok   : 'org.projectlombok:lombok:1.16.20',
-            scalalang: 'org.scala-lang:scala-library:2.12.4',
+            scalalang: 'org.scala-lang:scala-library:2.12.6',
             test     : [
                     junit    : 'junit:junit:4.12',
-                    mockito  : 'org.mockito:mockito-core:2.13.0',
-                    assertj  : 'org.assertj:assertj-core:3.9.0',
-                    scalatest: 'org.scalatest:scalatest_2.12:3.0.4'
+                    mockito  : 'org.mockito:mockito-core:2.18.3',
+                    assertj  : 'org.assertj:assertj-core:3.10.0',
+                    scalatest: 'org.scalatest:scalatest_2.12:3.0.5'
             ]
     ]
 }
