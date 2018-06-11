@@ -1,4 +1,4 @@
-package org.suggs.katas.bankaccount
+package org.acmebank.katas.bankaccount
 
 import org.scalatest._
 
