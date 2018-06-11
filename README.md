@@ -1,13 +1,23 @@
 # Bank account kata
-Sandro Mancuso originated
+ - originated from Sandro Mancuso and the LSCC
+
+## Importing into your IDE
+
+1. Clone this repo from github to your local machine
+1. From the command line type `gradlew.bat` or `./gradlew` to download dependencies and check the build is OK
+1. From intellij "open" the project using the `build.gradle` file
+1. Select to use the gradle wrapper and auto create folder etc
+1. Once opened start with a test
  
-###  Requirements
- - Deposit and Withdrawal  
- - Transfer  
- - Account statement (date, amount, balance)  
- - Statement printing  
- - Statement filters (just deposits, withdrawal, date)
- 
+##  Requirements
+ - I can Deposit and Withdrawal money from accounts
+ - I can Transfer amounts between accounts (if i have the funds)
+ - I can print out an Account balance (date, amount, balance)  
+ - I can print a statement of account activity (statement)  
+ - I can apply Statement filters (just deposits, withdrawal, date)
+
+## For those looking for an additional challenge try applying these rules and see what it does to your code
+
 ### Using object calisthenics
 1. One level of indentation per method
 1. Don’t use the ELSE keyword
