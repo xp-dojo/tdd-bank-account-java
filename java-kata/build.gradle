@@ -1,13 +1,14 @@
 apply plugin: 'java'
 
-jar{
+jar {
     baseName = 'bank-account-kata-java'
 }
 
-dependencies{
+dependencies {
     compileOnly libs.lombok
 
     testCompile libs.test.junit,
-        libs.test.assertj
+            libs.test.assertj,
+            libs.test.mockito
 
 }

@@ -18,7 +18,11 @@ Two key things to learn / practice in this Kata:
 
 ### Test Driven Development
 
+
 ### Pair programming
+There are many different ways to do pair programming, the most common model is the Driver-Navigator model.  For this kata, try and follow as below for simplicity.  There are two roles in this model (you should switch often to keep it interesting):
+ - __The Driver__ is the person wiring the code (test driven) and implementing.  The Driver should be explaining what they are doing in a running monologue so the Navigator understands the direction taken and can assess it.
+ - __The Navigator__ is the person observing and thinking about the big picture.  The best Navigators are those that ask `why?` often to check why.  For this kata, the Navigator is checking that they are really test driving (using the IDE) .  When applying object calisthenics the Navigator should be checking that the Nine rules are not being broken.  Correction and learning is the key here.   
 
 ----
 ##  Requirements
@@ -46,6 +50,6 @@ Two key things to learn / practice in this Kata:
 -  [Object Calisthenics pdf](http://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf)
 -  Object Calisthenics (full book), Jeff Bay in: The ThoughtWorks Anthology.
 Pragmatic Bookshelf 2008
--  Original idea for the kata: How Object-Oriented Are You Feeling Today? - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
+-  Original idea for the kata: [How Object-Oriented Are You Feeling Today?](https://www.slideshare.net/KrzysztofJelski/how-object-oriented-are-you-feeling-today) - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
 
 ----
