@@ -20,12 +20,12 @@ public class Account {
         this.balance = anAmount;
     }
 
-    public void deposit(Money anAmount) {
-        balance = balance.add(anAmount);
+    public void deposit(final Money anAmount) {
+        balance.add(anAmount);
     }
 
-    public void withdraw(Money anAmount) {
-        balance = balance.less(anAmount);
+    public void withdraw(final Money anAmount) {
+        balance.less(anAmount);
     }
 
     public void transfer(Money money, Account destinationAccount) {

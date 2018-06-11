@@ -4,21 +4,21 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode
 public class Money {
-    private final double amount;
+    private double amount;
 
-    private Money(double anAmount) {
+    private Money(final double anAmount) {
         this.amount = anAmount;
     }
 
-    public static Money anAmountOf(double anAmount) {
+    public static Money anAmountOf(final double anAmount) {
         return new Money(anAmount);
     }
 
-    public Money add(Money anAmount) {
-        return new Money(this.amount + anAmount.amount);
+    public void add(final Money anAmount) {
+        amount = this.amount + anAmount.amount;
     }
 
-    public Money less(Money anAmount) {
-        return new Money(this.amount - anAmount.amount);
+    public void less(final Money anAmount) {
+        amount = this.amount - anAmount.amount;
     }
 }
