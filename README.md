@@ -8,25 +8,7 @@ This session will be fun.  That's the primary objective, have fun and code ... t
 Come in pairs or make new friends on the day.  Please all bring your own laptop (we dont have any to share) with your favourite IDE installed (we will have prepared using IntelliJ and trust that Eclipse will work).  You can use whatever language you like, we have prepared Scala and Java modules here.
 
 ----
-##  Requirements to drive the kata
- - I can Deposit and Withdrawal money from accounts
- - I can Transfer amounts between accounts (if i have the funds)
- - I can print out an Account balance (date, amount, balance)  
- - I can print a statement of account activity (statement)  
- - I can apply Statement filters (just deposits, withdrawal, date)
-
-----
-## Importing into your IDE
-We are assuming that you will not have Gradle installed so we are proposing to use the wrapper scripts.  If you wish to please feel free to install Gradle locally:
-
-1. Clone this repo from github to your local machine
-1. From the command line type `gradlew.bat` or `./gradlew` to download dependencies and check the build is OK
-1. From intellij "open" the project using the `build.gradle` file
-1. Select to use the gradle wrapper and auto create folder etc
-1. Once opened start with a test
-
-----
-## What is this kata trying to teach us
+## What will this kata teach us
 Two key things to learn / practice in this Kata:
 
 1. Test Driven Development
@@ -46,6 +28,25 @@ There are many different ways to do pair programming, the most common model is t
 
  - __The Driver__ is the person wiring the code (test driven) and implementing.  The Driver should be explaining what they are doing in a running monologue so the Navigator understands the direction taken and can assess it (also it keeps the Navigator engaged).
  - __The Navigator__ is the person observing and thinking about the big picture.  The best Navigators are those that ask __why?__ often to check that we __build the right thing, and build the thing right__.  For this kata, the Navigator is checking that they are really test driving (using the IDE) and that the code __does what it says and says what it does__.  When applying object calisthenics the Navigator should be checking that the Nine rules are not being broken.  Correction and learning is the key here.
+
+----
+##  Requirements to drive the kata
+ - I can Deposit and Withdrawal money from accounts
+ - I can Transfer amounts between accounts (if i have the funds)
+ - I can print out an Account balance (date, amount, balance)  
+ - I can print a statement of account activity (statement)  
+ - I can apply Statement filters (just deposits, withdrawal, date)
+
+----
+## Importing into your IDE
+We are assuming that you will not have Gradle installed so we are proposing to use the wrapper scripts.  If you wish to please feel free to install Gradle locally:
+
+1. Clone this repo from github to your local machine
+1. From the command line type `gradlew.bat` or `./gradlew` to download dependencies and check the build is OK
+1. From intellij "open" the project using the `build.gradle` file
+1. Select to use the gradle wrapper and auto create folder etc
+1. Once opened start with a test
+
 
 ----
 ## Going the extra mile
