@@ -31,8 +31,8 @@ There are many different ways to do pair programming, the most common model is t
 
 ----
 ##  Requirements to drive the kata
- - I can Deposit and Withdrawal money from accounts
- - I can Transfer amounts between accounts (if i have the funds)
+ - I can Deposit and Withdraw money from accounts
+ - I can Transfer amounts between accounts (if I have the funds)
  - I can print out an Account balance (date, amount, balance)  
  - I can print a statement of account activity (statement)  
  - I can apply Statement filters (just deposits, withdrawal, date)
@@ -66,8 +66,8 @@ See the links below for more details on these:
 
 ### For more information:
 -  [Object Calisthenics pdf](http://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf)
+-  Original idea for the kata: [How Object-Oriented Are You Feeling Today?](https://www.slideshare.net/KrzysztofJelski/how-object-oriented-are-you-feeling-today) - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
 -  Object Calisthenics (full book), Jeff Bay in: The ThoughtWorks Anthology.
 Pragmatic Bookshelf 2008
--  Original idea for the kata: [How Object-Oriented Are You Feeling Today?](https://www.slideshare.net/KrzysztofJelski/how-object-oriented-are-you-feeling-today) - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
 
 ----
