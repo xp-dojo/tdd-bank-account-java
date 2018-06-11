@@ -15,7 +15,7 @@ Two key things to learn / practice in this Kata:
 1. Pair programming
 
 ### Test Driven Development
-Test driven development is based on the principles of test-first development (where you write the test first) but goes an extra step.  The basic cycle follows the __<span style="color: red">Red</span> -> <span style="color: green">Green</span> -> <span style="color: blue">Refactor</span>__ model:
+Test driven development is based on the principles of test-first development (where you write the test first) but goes an extra step to actually driving the code using the IDE.  The basic cycle follows the __<span style="color: red">Red</span> -> <span style="color: green">Green</span> -> <span style="color: blue">Refactor</span>__ model:
 
  - __Red__: write a failing test.  Write a test that describes (think documentation) what the function you are writing actually does.  Likely this will not even compile (this is fine, not compiling IS a failing test).
  - __Green__: now write enough of an implementation to make the test pass.  You should write the simplest code possible to make the code pass and resist the urge to write more than is actually needed.  Consider the [YAGNI](https://martinfowler.com/bliki/Yagni.html) principle.
