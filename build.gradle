@@ -4,7 +4,7 @@ allprojects{ projects ->
 
 subprojects { subprojects ->
 
-    apply from: "$rootDir/libraries.gradle"
+    apply from: "$rootDir/dependencies.gradle"
     
     repositories {
         jcenter()
