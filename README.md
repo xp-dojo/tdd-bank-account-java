@@ -5,7 +5,7 @@
 ## Overview
 This session will be fun.  That's the primary objective, have fun and code ... that's it!  In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones.  The code will be super easy, this is not about writing complicated code ... quite the opposite.  We will get pairs of you to build really simply test driven code. It will make you rethink how you write code from now on.  For those of you after more of a challenge, we have included some optional Object Oriented (calisthenics) rules to apply.
 
-Come in pairs or make new friends on the day.  Please all __bring your own laptop__ (we dont have any to share) with your favourite IDE installed (we will have prepared using IntelliJ and trust that Eclipse will work).  You can use whatever language you like, we have prepared Scala and Java modules here.
+Come in pairs or make new friends on the day.  Please all __bring your own laptop__ (we dont have any to share) with your favourite IDE installed (we will have prepared using IntelliJ and trust that Eclipse will work).
 
 ----
 ## What will this kata teach us
@@ -69,24 +69,3 @@ See the links below for more details on these:
 -  Original idea for the kata: [How Object-Oriented Are You Feeling Today?](https://www.slideshare.net/KrzysztofJelski/how-object-oriented-are-you-feeling-today) - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
 -  Object Calisthenics (full book), Jeff Bay in: The ThoughtWorks Anthology.
 Pragmatic Bookshelf 2008
-
-----
-```
-* What went wrong:
-Could not resolve all files for configuration ':scala-kata:zinc'.
-> Could not download scala-compiler.jar (org.scala-lang:scala-compiler:2.10.6)
-   > Could not get resource 'https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6.jar'.
-      > Read timed out
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 1m 24s
-8 actionable tasks: 6 executed, 2 up-to-date
-Toby's-MacBook:bank-account-kata toby$ 
-```
