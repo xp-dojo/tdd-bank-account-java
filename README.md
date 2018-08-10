@@ -4,9 +4,6 @@ This session will be fun. That's the primary objective, have fun and code ... th
 
 Come in pairs or make new friends on the day. Please all __bring your own laptop__ (we dont have any to share) with your favourite IDE installed (we will have prepared using IntelliJ and trust that Eclipse will work).
 
-
-## What Will We Learn
-
 Two key things to learn / practice in this Kata:
 
 1. Test Driven Development
