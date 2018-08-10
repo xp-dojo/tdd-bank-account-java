@@ -3,7 +3,11 @@ build/
 
 # intellij
 out/
-*.iml
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/misc.xml
+.idea/hydra.xml
+.idea/codeStyles
 target/
 
 # eclipse
