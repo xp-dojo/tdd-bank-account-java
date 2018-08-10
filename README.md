@@ -71,3 +71,22 @@ See the links below for more details on these:
 Pragmatic Bookshelf 2008
 
 ----
+```
+* What went wrong:
+Could not resolve all files for configuration ':scala-kata:zinc'.
+> Could not download scala-compiler.jar (org.scala-lang:scala-compiler:2.10.6)
+   > Could not get resource 'https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.6/scala-compiler-2.10.6.jar'.
+      > Read timed out
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 24s
+8 actionable tasks: 6 executed, 2 up-to-date
+Toby's-MacBook:bank-account-kata toby$ 
+```
