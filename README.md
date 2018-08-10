@@ -38,17 +38,6 @@ There are many different ways to do pair programming, the most common model is t
  - I can apply Statement filters (just deposits, withdrawal, date)
 
 ----
-## Importing into your IDE
-We are assuming that you will not have Gradle installed so we are proposing to use the wrapper scripts.  If you wish to please feel free to install Gradle locally:
-
-1. Clone this repo from github to your local machine
-1. From the command line type `gradlew.bat` or `./gradlew` to download dependencies and check the build is OK
-1. From intellij "open" the project using the `build.gradle` file
-1. Select to use the gradle wrapper and auto create folder etc
-1. Once opened start with a test
-
-
-----
 ## Going the extra mile
 
 ### Using object calisthenics (bold ones are MUST)
