@@ -2,12 +2,13 @@ package org.acmebank.bankaccount;
 
 import org.junit.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 public class AccountTest {
 
     @Test
     public void depositAnAmountToIncreaseTheBalance() {
-        System.out.println("hello");
+        assertThat("your first test isn't implemented", true, is(false));
     }
 }
