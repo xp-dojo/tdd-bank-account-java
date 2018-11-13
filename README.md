@@ -16,11 +16,12 @@ Implement the following user requirements in a TDD fashion. Work in pairs and re
 
 ## User Requirements
 
- - I can Deposit and Withdraw money from accounts
- - I can Transfer amounts between accounts (if I have the funds)
- - I can print out an Account balance (date, amount, balance) 
- - I can print a statement of account activity (statement) 
- - I can apply Statement filters (just deposits, withdrawal, date)
+ 1. I can **Deposit** money to accounts
+ 1. I can **Withdraw** money from accounts
+ 1. I can **Transfer** amounts between accounts (if I have the funds)
+ 1. I can print out an Account balance (date, amount, balance) 
+ 1. I can print a statement of account activity (statement) 
+ 1. I can apply Statement filters (just deposits, withdrawal, date)
 
 
 # Guidelines and Background
