@@ -10,7 +10,3 @@ out/
 .idea/codeStyles
 target/
 
-# eclipse
-.classpath
-.project
-.settings/
