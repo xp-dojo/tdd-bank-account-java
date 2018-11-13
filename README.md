@@ -12,7 +12,19 @@ Two key things to learn / practice in this Kata:
 
 # Instructions
 
-Implement the following user requirements in a TDD fashion. Work in pairs and read the guidelines and background information below before starting.
+1. Clone the repository with the following command.
+
+   `git clone https://github.com/tobyweston/bank-account-kata`
+  
+   If you have problems with SSL, you can try the following.
+   
+   `git clone -c http.sslVerify=false https://github.com/tobyweston/bank-account-kata`
+   
+   If you have problems with a proxy, you can `unset http_proxy` and `unset https_proxy` (or equivilant for your OS).
+
+1. Open the project from IntelliJ IDEA (community edition is fine). The project files are committed and there are no external dependancies. There are also Eclipse project files but these are untested. Your millage may vary.
+
+1. Implement the following user requirements in a TDD fashion. Work in pairs and read the guidelines and background information below before starting.
 
 ## User Requirements
 
