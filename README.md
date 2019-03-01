@@ -14,11 +14,11 @@ Two key things to learn / practice in this Kata:
 
 1. Clone the repository with the following command.
 
-   `git clone https://github.com/tobyweston/bank-account-kata`
+   `git clone https://github.com/xp-dojo/tdd-bank-account-java`
   
    If you have problems with SSL, you can try the following.
    
-   `git clone -c http.sslVerify=false https://github.com/tobyweston/bank-account-kata`
+   `git clone -c http.sslVerify=false https://github.com/xp-dojo/tdd-bank-account-java`
    
    If you have problems with a proxy, you can `unset http_proxy` and `unset https_proxy` (or equivalent for your OS).
 
