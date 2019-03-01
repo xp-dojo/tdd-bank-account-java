@@ -1,4 +1,4 @@
-# Bank Account Kata
+# Driving out a Bank Account with TDD
 
 This session will be fun. That's the primary objective, have fun and code ... that's it! In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones. The code will be super easy, this is not about writing complicated code ... quite the opposite. We will get pairs of you to build really simply test driven code. It will make you rethink how you write code from now on. For those of you after more of a challenge, we have included some optional Object Oriented (calisthenics) rules to apply.
 
@@ -31,9 +31,9 @@ Two key things to learn / practice in this Kata:
  1. I can **Deposit** money to accounts
  1. I can **Withdraw** money from accounts
  1. I can **Transfer** amounts between accounts (if I have the funds)
- 1. I can print out an Account balance (date, amount, balance) 
+ 1. I can print out an Account balance slip (date, time, balance) 
  1. I can print a statement of account activity (statement) 
- 1. I can apply Statement filters (just deposits, withdrawal, date)
+ 1. I can apply Statement filters (include just deposits, withdrawal, date)
 
 
 # Guidelines and Background
