@@ -3,14 +3,14 @@
     <module name="bank-account-kata" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="org.acmebank.bankaccount.*" />
+        <option name="PATTERN" value="org.xpdojo.bank.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />
-    <option name="PACKAGE_NAME" value="org.acmebank.bankaccount" />
-    <option name="MAIN_CLASS_NAME" value="org.acmebank.bankaccount.AccountTest" />
+    <option name="PACKAGE_NAME" value="org.xpdojo.bank" />
+    <option name="MAIN_CLASS_NAME" value="org.xpdojo.bank.AccountTest" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea" />
