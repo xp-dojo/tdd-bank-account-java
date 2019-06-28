@@ -1,8 +1,10 @@
 # Driving out a Bank Account with TDD
 
-This session will be fun. That's the primary objective, have fun and code ... that's it! In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones. The code will be super easy, this is not about writing complicated code ... quite the opposite. We will get pairs of you to build really simply test driven code. It will make you rethink how you write code from now on. For those of you after more of a challenge, we have included some optional Object Oriented (calisthenics) rules to apply.
+This session will be fun. That's the primary objective, have fun and code. That's it! In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones. 
 
-Come in pairs or make new friends on the day. Please all __bring your own laptop__ (we dont have any to share) with your favourite IDE installed (we will have prepared using IntelliJ and trust that Eclipse will work).
+The code will be super easy, this is not about writing complicated code, quite the opposite. We will get pairs of you to build really simple test driven code. It will make you rethink how you write code. For those of you after more of a challenge, we have included some optional Object Oriented (calisthenics) rules to apply.
+
+Come in pairs or make new friends on the day. Please all __bring your own laptop__  with your favourite IDE installed.
 
 Two key things to learn / practice in this Kata:
 
