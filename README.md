@@ -24,7 +24,7 @@ Two key things to learn / practice in this Kata:
    
    If you have problems with a proxy, you can `unset http_proxy` and `unset https_proxy` (or equivalent for your OS).
 
-1. Open the project from IntelliJ IDEA (community edition is fine). The project files are committed and there are no external dependencies. There are also Eclipse project files but these are untested. Your milage may vary.
+1. Open the project from IntelliJ IDEA (community edition is fine). The project files are committed and there are no external dependencies. There are also Eclipse project files but these are untested. Your milage may vary. If you have problems with IntelliJ, see the [Troubleshooting](troubleshooting.md) document.
 
 1. Implement the following user requirements in a TDD fashion. Work in pairs and read the guidelines and background information below before starting.
 
