@@ -1,12 +1,8 @@
-.gradle/
-build/
 
 # intellij
 out/
 .idea/workspace.xml
-.idea/uiDesigner.xml
 .idea/misc.xml
-.idea/hydra.xml
 .idea/codeStyles
 target/
 
