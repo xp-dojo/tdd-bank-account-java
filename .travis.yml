@@ -1,6 +1,9 @@
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
+before_install:
+  - chmod +x gradlew
+  - chmod +x gradle/wrapper/gradle-wrapper.jar
 script:
   - ./gradlew build
 branches:
