@@ -1,5 +1,13 @@
 # Worked Example
 
+1. eaac6a8 RED: deposit method, accessor for balance value and a failing test. Minimal implementation on Account
+
+https://github.com/xp-dojo/tdd-bank-account-java/blob/eaac6a841d8ccb3a36b31fc8b8f877f084a2ea20/src/main/java/org/xpdojo/bank/Account.java
+
+...and the test.
+
+https://github.com/xp-dojo/tdd-bank-account-java/blob/eaac6a841d8ccb3a36b31fc8b8f877f084a2ea20/src/test/java/org/xpdojo/bank/AccountTest.java
+
 ----
 ## Overview
 
