@@ -1,3 +1,5 @@
+[![](https://travis-ci.org/xp-dojo/tdd-bank-account-java.svg?branch=instructors)](https://travis-ci.org/xp-dojo/tdd-bank-account-java)
+
 # Driving out a Bank Account with TDD
 
 This session will be fun. That's the primary objective, have fun and code. That's it! In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones. 
