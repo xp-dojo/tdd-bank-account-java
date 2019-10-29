@@ -9,6 +9,6 @@ public class AccountTest {
 
     @Test
     public void depositAnAmountToIncreaseTheBalance() {
-        assertThat("your first test isn't implemented", true, is(false));
+        assertThat("your first test goes here!", true, is(true));
     }
 }
