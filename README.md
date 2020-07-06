@@ -1,4 +1,4 @@
-[![](../../workflows/build/badge.svg?branch=instructors)](../../actions?query=workflow%3Abuild)
+[![](../../workflows/build/badge.svg)](../../actions?query=workflow%3Abuild)
 
 # Driving out a Bank Account with TDD
 
