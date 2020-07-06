@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/xp-dojo/tdd-bank-account-java.svg?branch=instructors)](https://travis-ci.org/xp-dojo/tdd-bank-account-java)
+[![](../../workflows/build/badge.svg?branch=instructors)](../../actions?query=workflow%3Abuild)
 
 # Driving out a Bank Account with TDD
 
