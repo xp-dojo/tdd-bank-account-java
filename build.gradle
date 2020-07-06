@@ -25,6 +25,8 @@ ext {
 test {
     useJUnitPlatform()
 
+    finalizedBy jacocoTestReport
+
     testLogging {
         afterSuite { desc, result ->
             if (!desc.parent) {
@@ -38,5 +40,12 @@ test {
                     "}"
             }
         }
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled true
     }
 }
