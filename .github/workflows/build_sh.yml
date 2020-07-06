@@ -14,4 +14,3 @@ jobs:
       
     - name: Run build.sh
       run: ./build.sh
-

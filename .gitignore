@@ -4,5 +4,10 @@ out/
 .idea/workspace.xml
 .idea/misc.xml
 .idea/codeStyles
+.idea/gradle.xml
+.idea/terminal.xml
 target/
 
+# gradle
+.gradle/
+build/
