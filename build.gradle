@@ -24,4 +24,19 @@ ext {
 
 test {
     useJUnitPlatform()
+
+    testLogging {
+        afterSuite { desc, result ->
+            if (!desc.parent) {
+                new File(buildDir, "test-results.json").text =
+                    "{ " +
+                        "\"result\": \"${result.resultType}\", " +
+                        "\"tests\": ${result.testCount}, " +
+                        "\"passed\": ${result.successfulTestCount}, " +
+                        "\"failed\": ${result.failedTestCount}, " +
+                        "\"skipped\": ${result.skippedTestCount} " +
+                    "}"
+            }
+        }
+    }
 }
