@@ -30,7 +30,7 @@ Two key things to learn / practice in this Kata:
 
    `git clone https://github.com/<your account name>/tdd-bank-account-java.git`
 
-If you have problems with a proxy, you can unset http_proxy and unset https_proxy (or equivalent for your OS).
+   If you have problems with a proxy, you can unset http_proxy and unset https_proxy (or equivalent for your OS).
 
 1. Import the project in IntelliJ IDEA ([Community Edition](https://www.jetbrains.com/idea/download/) is fine).
 
