@@ -27,9 +27,11 @@ jobs:
         with:
           name: test-results
           path: build/test-results.json
+        if: always()
 
       - name: Upload jacoco report
         uses: actions/upload-artifact@v2
         with:
           name: test-results
           path: build/reports/jacoco/test/jacocoTestReport.xml
+        if: always()
