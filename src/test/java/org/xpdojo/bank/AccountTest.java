@@ -1,16 +1,15 @@
 package org.xpdojo.bank;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AccountTest {
 
     @Test
-	@Ignore
+	@Disabled
     public void depositAnAmountToIncreaseTheBalance() {
-        assertThat("your first test isn't implemented", true, is(false));
+        assertThat("your first test").isBlank();
     }
 }

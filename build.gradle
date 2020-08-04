@@ -1,0 +1,51 @@
+defaultTasks 'clean', 'build', 'jacocoTestReport'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2',
+            'org.assertj:assertj-core:3.16.1',
+            'org.jmock:jmock-junit5:2.11.0',
+            'org.mockito:mockito-core:3.3.3'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+}
+
+ext {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+test {
+    useJUnitPlatform()
+
+    finalizedBy jacocoTestReport
+
+    testLogging {
+        afterSuite { desc, result ->
+            if (!desc.parent) {
+                new File(buildDir, "test-results.json").text =
+                    "{ " +
+                        "\"result\": \"${result.resultType}\", " +
+                        "\"tests\": ${result.testCount}, " +
+                        "\"passed\": ${result.successfulTestCount}, " +
+                        "\"failed\": ${result.failedTestCount}, " +
+                        "\"skipped\": ${result.skippedTestCount} " +
+                    "}"
+            }
+        }
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled true
+    }
+}

@@ -1,4 +1,4 @@
-[![](../../workflows/build/badge.svg?branch=instructors)](../../actions?query=workflow%3Abuild)
+[![](../../workflows/build/badge.svg)](../../actions?query=workflow%3Abuild)
 
 # Driving out a Bank Account with TDD
 
@@ -16,17 +16,29 @@ Two key things to learn / practice in this Kata:
 
 # Instructions
 
-1. Clone the repository with the following command.
+1. Fork the repository on Github. Click the ‘fork’ button in the top right to fork into your account.
 
-   `git clone https://github.com/xp-dojo/tdd-bank-account-java`
-  
-   If you have problems with SSL, you can try the following.
-   
-   `git clone -c http.sslVerify=false https://github.com/xp-dojo/tdd-bank-account-java`
-   
-   If you have problems with a proxy, you can `unset http_proxy` and `unset https_proxy` (or equivalent for your OS).
+   Fork from https://github.com/xp-dojo-classes/tdd-bank-account-java
 
-1. Open the project from IntelliJ IDEA (community edition is fine). The project files are committed and there are no external dependencies. There are also Eclipse project files but these are untested. Your milage may vary. If you have problems with IntelliJ, see the [Troubleshooting](troubleshooting.md) document.
+   ![](fork_it.jpg)
+
+1. In your new fork, click on the “Actions” tab and then on the “I understand my workflows, go ahead and run them”
+
+   ![](enable_workdlows.jpg)
+
+1. Having forked into your own account, you then clone to download it from Github to your working machine:
+
+   `git clone https://github.com/<your account name>/tdd-bank-account-java.git`
+
+   If you have problems with a proxy, you can unset http_proxy and unset https_proxy (or equivalent for your OS).
+
+1. Import the project in IntelliJ IDEA ([Community Edition](https://www.jetbrains.com/idea/download/) is fine).
+
+   It has a Gradle build file which should be detected automatically. See the [JetBrains Gradle plugin help](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start) for some tips. 
+   
+   If you have problems with IntelliJ, see the [Troubleshooting](troubleshooting.md) document.
+
+1. You should now be able to run the `build` task from within the Gradle menu on the right-hand side of IntelliJ.
 
 1. Implement the following user requirements in a TDD fashion. Work in pairs and read the guidelines and background information below before starting.
 
