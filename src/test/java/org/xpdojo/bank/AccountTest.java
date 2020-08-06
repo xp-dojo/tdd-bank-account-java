@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class AccountTest {
 
@@ -50,10 +51,19 @@ public class AccountTest {
 
     @Test
     public void transferMoneyBetweenAccounts() {
-        Account accountSendTo =new Account();
+        Account accountSendTo = new Account();
         account.deposit(12);
         account.transfer(10, accountSendTo);
         assertThat(account.balance()).isEqualTo(2);
         assertThat(accountSendTo.balance()).isEqualTo(10);
+    }
+
+    @Test
+    public void transferToAnotherAccountNoFunds() {
+        Account accountSendTo = new Account();
+        account.deposit(1);
+        assertFalse(account.transfer(10, accountSendTo));
+        assertThat(account.balance()).isEqualTo(1);
+        assertThat(accountSendTo.balance()).isEqualTo(0);
     }
 }
