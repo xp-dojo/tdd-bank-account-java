@@ -15,4 +15,12 @@ public class Account {
     public void deposit(int amount) {
         balanceAmount = balanceAmount+amount;
     }
+
+    public boolean withdraw(int withdrawAmount) {
+        if(balanceAmount<withdrawAmount){
+            return false;
+        }
+        balanceAmount = balanceAmount - withdrawAmount;
+        return true;
+    }
 }
