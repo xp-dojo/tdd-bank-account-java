@@ -1,5 +1,6 @@
 package org.xpdojo.bank;
 
+import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -8,33 +9,43 @@ import static org.junit.Assert.assertEquals;
 
 public class AccountTest {
 
+
+    private Account account;
+
+    @Before
+    public void setUp() throws Exception {
+        account = new Account();
+    }
+
     @Test
     public void depositAnAmountToIncreaseTheBalance() {
-        Account account =new Account();
-        assertEquals( 0, account.balance());
+        assertEquals(0, account.balance());
     }
 
     @Test
     public void depositAmountShouldIncreaseBalance() {
-        Account account = new Account();
         account.deposit(10);
         assertThat(account.balance()).isEqualTo(10);
     }
 
     @Test
     public void depositmultipleAmountShouldIncreaseBalance() {
-        Account account = new Account();
         account.deposit(10);
         account.deposit(3);
         assertThat(account.balance()).isEqualTo(13);
     }
 
     @Test
-    public void withdrawAmount() {
-        Account account =new Account();
+    public void withdrawInsufficientAmount() {
         assertThat(account.withdraw(5)).isFalse();
         assertThat(account.balance()).isEqualTo(0);
+    }
 
+    @Test
+    public void withdrawAmount() {
+        account.deposit(8);
+        account.withdraw(5);
+        assertThat(account.balance()).isEqualTo(3);
     }
 
 
