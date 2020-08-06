@@ -48,5 +48,12 @@ public class AccountTest {
         assertThat(account.balance()).isEqualTo(3);
     }
 
-
+    @Test
+    public void transferMoneyBetweenAccounts() {
+        Account accountSendTo =new Account();
+        account.deposit(12);
+        account.transfer(10, accountSendTo);
+        assertThat(account.balance()).isEqualTo(2);
+        assertThat(accountSendTo.balance()).isEqualTo(10);
+    }
 }

@@ -23,4 +23,12 @@ public class Account {
         balanceAmount = balanceAmount - withdrawAmount;
         return true;
     }
+
+    public boolean transfer(int transferAmount, Account accountSendTo) {
+        if(withdraw(transferAmount)){
+            accountSendTo.deposit(transferAmount);
+            return true;
+        }
+        return false;
+    }
 }
