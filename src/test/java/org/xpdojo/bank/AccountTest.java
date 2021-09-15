@@ -34,4 +34,11 @@ public class AccountTest {
         account.deposit(300);
         assertThat(account.balance, is(400));
     }
+
+    @Test
+    public void withdrawAnAmount() {
+        Account account = new Account();
+        account.withdraw(100);
+        assertThat(account.balance, is(-100));
+    }
 }
